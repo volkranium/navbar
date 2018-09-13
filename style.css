@@ -1,0 +1,38 @@
+#main-nav {
+    font-size: 13px;
+    color: black;
+    padding-top: 18px;
+}
+a {
+    color: rgb(124, 66, 151);
+}
+#secondary-bar {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    color: rgb(124, 66, 151);
+}
+#secondary-bar span {
+    margin-left: 8px;
+}
+#social-icon-container {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding-right: 5px;
+}
+#social-icon-container .fab{
+    margin-left: 7px;
+    background-color: gray;
+    color: white;
+    border-radius: 50%;
+    padding: 8px;
+}
+#social-icon-container .fab:nth-child(2) {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#social-icon-container .fab:hover {
+    background-color: rgb(124, 66, 151);
+}
+#nav-toggle {
+    color: black;
+}
